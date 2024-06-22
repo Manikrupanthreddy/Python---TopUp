@@ -1,0 +1,8 @@
+numbers = [10, 7, 8, 7, 10, 5, 71, 23]
+l = []
+
+for i in numbers:
+    if numbers.count(i) == 1:
+        l.append(i)
+
+print(l)
